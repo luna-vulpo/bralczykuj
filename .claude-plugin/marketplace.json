@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "bralczykuj",
+  "description": "Bralczykuj: Miodkuj z regułami redakcyjnymi dla tekstów interfejsu, pomocy i dokumentów",
+  "owner": { "name": "Luna Vulpo" },
+  "plugins": [
+    {
+      "name": "bralczykuj",
+      "source": "./plugins/bralczykuj",
+      "description": "Redakcja polskiego tekstu według Miodkuja z regułami nadrzędnymi: rozkaźnik w poleceniach, bierna i „należy” w opisach, dokument nigdy jako podmiot czynności.",
+      "version": "1.0.0",
+      "author": { "name": "Luna Vulpo" },
+      "homepage": "https://github.com/luna-vulpo/bralczykuj",
+      "repository": "https://github.com/luna-vulpo/bralczykuj",
+      "license": "MIT",
+      "category": "writing",
+      "tags": ["polish", "writing", "editing", "anti-slop", "ux-writing"]
+    }
+  ]
+}

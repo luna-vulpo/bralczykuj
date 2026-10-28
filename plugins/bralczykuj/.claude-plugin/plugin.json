@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "bralczykuj",
+  "description": "Redakcja polskiego tekstu według Miodkuja z regułami nadrzędnymi: rozkaźnik w poleceniach, bierna i „należy” w opisach, dokument nigdy jako podmiot czynności.",
+  "version": "1.0.0",
+  "author": { "name": "Luna Vulpo" },
+  "homepage": "https://github.com/luna-vulpo/bralczykuj",
+  "repository": "https://github.com/luna-vulpo/bralczykuj",
+  "license": "MIT",
+  "keywords": ["polish", "writing", "editing", "anti-slop", "ux-writing", "claude-code"]
+}
