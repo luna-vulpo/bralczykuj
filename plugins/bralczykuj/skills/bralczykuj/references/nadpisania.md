@@ -2,7 +2,8 @@
 
 Ten plik ma pierwszeństwo przed każdym innym plikiem w `references/`. Reguły ustalone
 27–28.10.2026 przy przeglądzie tekstów aplikacji Piąta Żyła; obowiązują w każdym polskim
-tekście, który da się podzielić na polecenia i opisy.
+tekście, który da się podzielić na polecenia i opisy. Wyjątki zależne od stylu tekstu
+(interfejs, instruktarz, urzędowy, dokumentacja) ustala `style.md`.
 
 ## Sprzeczności z Miodkujem i ich rozstrzygnięcie
 

@@ -60,9 +60,17 @@ Kolejność odpowiada wadze. Szczegóły, przykłady i wyjątki: `references/nad
     okolicznik — szyk podmiot–orzeczenie zostaje: „Poprzednie kontrole zostają bez zmian”
     jest poprawne i nie przechodzi w „Zostają bez zmian poprzednie kontrole”.
 
-Przy tekście interfejsu, pomocy i dokumentów reguły 1–13 stosuje się zawsze. Przy innym
-gatunku (list, felieton, tekst naukowy) — tylko tam, gdzie nie łamią rejestru źródła
-(`references/registers.md`).
+Przy tekście interfejsu, pomocy i dokumentów reguły 1–13 stosuje się zawsze, z wyjątkami
+ustalonymi przez styl. Przy innym gatunku (list, felieton, tekst naukowy) — tylko tam, gdzie
+nie łamią rejestru źródła (`references/registers.md`).
+
+## Styl
+
+Styl dopasowuje reguły 1–13 do przeznaczenia tekstu: `interfejs`, `instruktarz`, `urzędowy`,
+`dokumentacja` albo `ogólny` (zachowanie 1.0.0). Wybór: argument `styl=…` z ustawieniami
+(`limit=40`, `forma=państwo`), słowo w prośbie („w stylu urzędowym”) albo rozpoznanie
+automatyczne. Styl może regułę wyłączyć, złagodzić albo zaostrzyć; ochrony treści nie
+uchyla. Macierz reguł, profile, ustawienia i przykłady: `references/style.md`.
 
 ## Tryby
 
@@ -78,13 +86,15 @@ gatunku (list, felieton, tekst naukowy) — tylko tam, gdzie nie łamią rejestr
 
 ## Przebieg
 
-1. Przeczytać całe źródło; ustalić zadanie tekstu, odbiorcę i rejestr.
+1. Przeczytać całe źródło; ustalić zadanie tekstu, odbiorcę, rejestr i styl
+   (`references/style.md`) wraz z ustawieniami z wywołania.
 2. Ustalić trzy–pięć cech głosu autora (słownictwo, rytm, formalność, bezpośredniość).
 3. Oznaczyć fragmenty chronione (kod, liczby, przywołania, cytaty, nazwy pól).
 4. Rozstrzygnąć, które zdania są poleceniem, a które opisem — od tego zależą reguły 1–3.
-5. Przejść reguły nadrzędne 1–13, potem wzorce Miodkuja (`references/polish-patterns.md`).
+5. Przejść reguły nadrzędne 1–13 w wersji ustalonej przez styl, potem wzorce Miodkuja (`references/polish-patterns.md`).
 6. Drugie przejście: rytm generowany, mgła urzędowa, kalki, ogólniki, nadmiar półpauz.
-7. Kontrola jakości: `references/eval.md` oraz lista kontrolna z `references/nadpisania.md`.
+7. Kontrola jakości: `references/eval.md`, lista kontrolna z `references/nadpisania.md`
+   i lista kontrolna stylu z `references/style.md`.
    Wada → jedna poprawka i ponowna kontrola.
 
 ## Drabina konkretu (z Miodkuja)
@@ -96,6 +106,8 @@ gdy brzmi wiarygodnie.
 
 ## Materiały
 
+- `references/style.md` — style, macierz reguł 1–13, ustawienia, rozpoznawanie. **Czytać
+  zawsze**, także gdy styl nie został wskazany.
 - `references/nadpisania.md` — reguły nadrzędne z przykładami, wyjątki, sprzeczności
   z Miodkujem i lista kontrolna. **Czytać zawsze.**
 - `references/polish-patterns.md` — wzorce sztucznej polszczyzny i zabezpieczenia przed

@@ -17,6 +17,17 @@ Reguły powstały przy redakcji tekstów interfejsu, pomocy i dokumentów aplika
 - `/bralczykuj-audyt <tekst albo plik>`: wady z cytatem, wagą i kierunkiem poprawki, bez przepisywania.
 - Albo zwykła prośba: „bralczykuj”, „popraw styl”, „usuń slop”.
 
+## Style (od 1.1.0)
+
+Styl dopasowuje reguły nadrzędne do przeznaczenia tekstu: `interfejs`, `instruktarz`, `urzędowy`, `dokumentacja`, `ogólny`.
+
+```
+/bralczykuj styl=interfejs limit=40 <tekst>
+/bralczykuj-audyt styl=urzędowy forma=państwo <tekst>
+```
+
+Bez `styl=` styl zostaje rozpoznany z tekstu albo prośby („w stylu urzędowym”); przy niepewności działa `ogólny`, czyli zachowanie 1.0.0. Macierz reguł i profile: `references/style.md`.
+
 ## Reguły nadrzędne w skrócie
 
 1. Polecenie dla czytelnika w trybie rozkazującym.
@@ -44,6 +55,7 @@ plugins/bralczykuj/
   commands/bralczykuj.md, bralczykuj-audyt.md
   skills/bralczykuj/SKILL.md
   skills/bralczykuj/references/nadpisania.md     reguły nadrzędne
+  skills/bralczykuj/references/style.md          style i macierz reguł
   skills/bralczykuj/references/*.md              pliki Miodkuja 2.1.1 bez zmian
 ```
 
