@@ -107,6 +107,21 @@ uchyla. Macierz reguł, profile, ustawienia i przykłady: `references/style.md`.
    i lista kontrolna stylu z `references/style.md`.
    Wada → jedna poprawka i ponowna kontrola.
 
+## Słownik przyjętych brzmień
+
+Przed poprawką tekstu projektu poszukać pliku `brzmienia.md` (w katalogu głównym
+repozytorium, w `projekt/` albo w `docs/`). Brzmienia z słownika mają pierwszeństwo przed
+nowymi propozycjami: ta sama treść w innym miejscu dostaje to samo brzmienie. Po
+zatwierdzeniu przez użytkownika nowych brzmień, które powtarzają się w projekcie (komunikaty
+błędów, stany puste, opisy usuwania), należy je dopisać do słownika. Bez pliku słownika —
+zaproponować jego założenie przy pierwszym większym przeglądzie.
+
+## Typografia
+
+Cudzysłowy polskie („…”), półpauza z odstępami między członami zdania, łącznik w złożeniach
+i oznaczeniach (`L-N`, `PN-EN 61557`), spacja między liczbą a jednostką. Typografia nie
+zmienia treści, więc poprawia się ją zawsze, także w stylu urzędowym.
+
 ## Drabina konkretu (z Miodkuja)
 
 Ogólnik bez oparcia w źródle: (1) użyć faktu ze źródła; (2) złożyć go z informacji ze źródła

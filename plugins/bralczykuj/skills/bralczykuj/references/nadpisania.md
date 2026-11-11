@@ -25,7 +25,10 @@ tekście, który da się podzielić na polecenia i opisy. Wyjątki zależne od s
 | Jeśli w rozdzielnicy jest inny aparat, wskaż go. | Wskaż aparat z rozdzielnicy, jeśli jest inny. |
 
 Polecenie to zdanie mówiące czytelnikowi, co ma zrobić w aplikacji albo na obiekcie. Forma
-przyszła („Uzupełnisz go w…”, „Wskażesz…”) też jest poleceniem — zamienia się ją na rozkaźnik.
+przyszła („Uzupełnisz go w…”, „Wskażesz…”) też jest poleceniem — należy ją zamienić na
+rozkaźnik. Ukrytym poleceniem jest też forma z „się” w komunikacie błędu pola: „Rok budowy
+zapisuje się czterema cyframi” → „Wpisz rok budowy czterema cyframi”; „Moc zapisuje się
+liczbą” → „Wpisz moc liczbą”.
 
 ### 3. Opis: bierna albo „należy”
 
@@ -170,4 +173,9 @@ Zaimek zostaje, gdy bez niego zdanie jest niegramatyczne albo niejednoznaczne.
 - Czy nie ma „raz, dla”, „dzisiaj” bez treści i powtórzeń tej samej myśli?
 - Czy „bez zmian”, „od razu”, „potem” i podobne stoją zaraz po czasowniku, przed
   dopełnieniem — i czy przy tym nie przestawiono podmiotu za orzeczenie?
+- Czy cudzysłowy są polskie („…”, bez prostego `"` i bez `“…”`), półpauza z odstępami
+  oddziela człony zdania, a łącznik bez odstępów łączy człony wyrazu (`L-N`, `PN-EN`)?
+  Czy przed jednostką i po liczbie stoi spacja (`25 A`, `0,4 s`), a w kodzie zasobów
+  nierozdzielająca, jeśli projekt jej używa?
+- Czy brzmienia zgadzają się ze słownikiem przyjętych brzmień projektu (`brzmienia.md`)?
 - Czy fakty, liczby, przywołania, nazwy pól i wstawki `$…` zostały dosłownie?

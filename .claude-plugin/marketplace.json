@@ -8,7 +8,7 @@
       "name": "bralczykuj",
       "source": "./plugins/bralczykuj",
       "description": "Redakcja polskiego tekstu według Miodkuja z regułami nadrzędnymi: rozkaźnik w poleceniach, bierna i „należy” w opisach, dokument nigdy jako podmiot czynności.",
-      "version": "1.1.3",
+      "version": "1.1.4",
       "author": { "name": "Luna Vulpo" },
       "homepage": "https://github.com/luna-vulpo/bralczykuj",
       "repository": "https://github.com/luna-vulpo/bralczykuj",
