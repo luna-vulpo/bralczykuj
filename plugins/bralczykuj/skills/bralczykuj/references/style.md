@@ -63,6 +63,10 @@ i potwierdzeń.
   uzgadnia. Wstawka wypełniana rzeczownikiem z `plurals` stoi po liczbie, a przypadek słów
   wokół niej musi pasować do każdej formy z `plurals`; gdy poprawka tego nie zapewnia,
   wstawka zostaje bez zmian, a wada zostaje zgłoszona.
+- Ta sama wada w bliźniaczych kluczach (np. błąd pola daty w kilku ekranach, błąd pola
+  i przeszkoda wystawienia) dostaje jednakową poprawkę we wszystkich plikach.
+- Skróty i dzielenie wyrazów w nagłówkach kolumn tabel („Aparat zabezp.”, „Zero- wanie”)
+  zostają, bo wynikają z szerokości kolumny.
 - Reguła 3 luźniej: w opisie równoważnik ma pierwszeństwo przed „należy”.
 - Reguły 8, 9, 10, 12 ostrzej: każde słowo bez treści zostaje usunięte.
 
@@ -144,10 +148,12 @@ Ustawienia: `forma=rozkaźnik`, `terminy=bez-zmian`.
 | `strings.xml`, plik `*.json` z kluczami tekstów, krótkie frazy bez kropek | interfejs |
 | lista numerowana zaczynana czasownikami | instruktarz |
 | „art.”, „ust.”, „Szanowni Państwo”, „wnioskodawca”, sygnatura pisma | urzędowy |
+| treść drukowana w dokumencie: prefiks klucza `pdf`, `druk`, `raport` albo komentarz o treści PDF | urzędowy |
 | bloki kodu, nazwy funkcji, `README`, `CHANGELOG` | dokumentacja |
 | brak sygnału albo sygnały sprzeczne | ogólny |
 
-W tekście mieszanym styl należy dobrać osobno dla każdego fragmentu.
+W tekście mieszanym styl należy dobrać osobno dla każdego fragmentu. W jednym pliku zasobów
+styl należy dobrać według prefiksu klucza.
 
 ## Lista kontrolna stylu
 
