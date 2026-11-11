@@ -57,11 +57,20 @@ i potwierdzeń.
 - Komunikat błędu: najpierw co się stało, potem co zrobić; bez przeprosin i wykrzyknień.
 - Potwierdzenie: równoważnik.
 - Ta sama czynność nosi tę samą nazwę w całym tekście.
+- Wielkość liter jak w źródle. Przycisk i nagłówek sekcji zapisane wersalikami zostają
+  wersalikami także po poprawce („ZAPISZ DATY”); wersalików nie dodaje się ani nie usuwa.
+- Wstawka (`%1$s`, `%2$d`, `{0}`) zostaje w tym samym miejscu względem słów, z którymi się
+  uzgadnia. Wstawka wypełniana rzeczownikiem z `plurals` stoi po liczbie, a przypadek słów
+  wokół niej musi pasować do każdej formy z `plurals`; gdy poprawka tego nie zapewnia,
+  wstawka zostaje bez zmian, a wada zostaje zgłoszona.
 - Reguła 3 luźniej: w opisie równoważnik ma pierwszeństwo przed „należy”.
 - Reguły 8, 9, 10, 12 ostrzej: każde słowo bez treści zostaje usunięte.
 
 Ustawienia: `forma=rozkaźnik` (albo `bezokolicznik`), `limit=brak` (liczba znaków na
-tekst; przekroczenie → skrócić, a gdy skrót zmienia sens — zgłosić), `kropka=tylko-zdania`.
+tekst; przekroczenie → skrócić, a gdy skrót zmienia sens — zgłosić), `limit_opis=160`
+(liczba znaków opisu pod przełącznikiem, kafelkiem albo nagłówkiem; przekroczenie to
+ostrzeżenie w audycie, a w edycji — skrót tylko bez utraty warunku lub skutku),
+`kropka=tylko-zdania`.
 
 | Źle | Dobrze |
 | --- | --- |
@@ -69,6 +78,7 @@ tekst; przekroczenie → skrócić, a gdy skrót zmienia sens — zgłosić), `k
 | Przepraszamy! Wystąpił błąd podczas zapisywania. | Nie zapisano pomiaru. Sprawdź połączenie i spróbuj ponownie. |
 | Ten pomiar został pomyślnie zapisany. | Zapisano pomiar |
 | Pole to jest wymagane | Pole wymagane |
+| ZAPISZ wprowadzone daty | ZAPISZ DATY |
 
 ## instruktarz
 
@@ -143,5 +153,6 @@ W tekście mieszanym styl należy dobrać osobno dla każdego fragmentu.
 
 - Czy styl wybrano z argumentu, z prośby albo z rozpoznania i czy zgadza się z tekstem?
 - Czy reguły wyłączone w stylu nie zostały mimo to zastosowane?
-- Czy spełniono ustawienia (`limit`, `forma`, `numeracja`, `zdanie`)?
+- Czy spełniono ustawienia (`limit`, `limit_opis`, `forma`, `numeracja`, `zdanie`)?
+- Czy wielkość liter i położenie wstawek zgadzają się ze źródłem?
 - Czy ochrona treści pozostała nienaruszona?
