@@ -37,7 +37,15 @@ przyszła („Uzupełnisz go w…”, „Wskażesz…”) też jest poleceniem �
 
 Obowiązek osoby trzeciej (np. zarządcy) opisuje się bierną albo „należy”, nie rozkaźnikiem.
 
-### 4. Dokument nie jest podmiotem czynności
+### 4. Martwy obiekt nie jest podmiotem czynności
+
+Dotyczy dokumentów, protokołów, książek, artykułów, ustaw, norm, tablic, przepisów, wzorów,
+wykazów, ekranów, plików i ustawień, a także części aplikacji (terminarz, biblioteka,
+ścieżka pomiarowa, pulpit, pole, lista, sekcja). Złożona maszyna jako całość (aplikacja,
+komputer, telefon, miernik, system) może działać. W razie wątpliwości — strona bierna.
+Czasowniki „daje”, „informuje”, „przechodzi”, „blokuje” przy martwym podmiocie także
+podlegają regule. Czasowniki relacji („zawiera”, „obejmuje”, „dotyczy”) zostają,
+a w stylu urzędowym przechodzą w stronę bierną.
 
 | Źle | Dobrze |
 | --- | --- |
@@ -45,6 +53,15 @@ Obowiązek osoby trzeciej (np. zarządcy) opisuje się bierną albo „należy�
 | Protokół nie mówi, czy… | Protokół nie zawiera informacji, czy… |
 | Dokument będzie o nim milczał. | W dokumencie nie zostanie o nim nic umieszczone. |
 | Protokół poda je jako niezmierzone. | W protokole zostaną podane jako niezmierzone. |
+| Norma nie podaje granicy. | W normie nie podano granicy. |
+| Przepisy z 1995 r. nie wymagały RCD. | W przepisach z 1995 r. nie wymagano RCD. |
+| Norma każe ustalić prąd zwarcia. | Zgodnie z normą należy ustalić prąd zwarcia. |
+| Komputer na ekranie pokazuje wynik. | Na ekranie komputera jest wyświetlony wynik. (Ale: „Komputer policzył wynik” — poprawne.) |
+| Zakres kontroli go nie obejmuje. (styl urzędowy) | Nie jest objęte zakresem kontroli. |
+| Terminarz układa budynki według terminu. | W terminarzu budynki są ułożone według terminu. |
+| Puste pole daje wpis „nie wpisano”. | Puste pole powoduje wpis „nie wpisano”. |
+| Wpis bez zalecenia informuje zarządcę o usterce. | Brak zalecenia oznacza, że zarządca dowie się o usterce… |
+| Puste pole nie blokuje wystawienia. | Wystawienie jest możliwe przy pustym polu. |
 
 ### 5. Bez „nikt”
 
@@ -60,13 +77,14 @@ Obowiązek osoby trzeciej (np. zarządcy) opisuje się bierną albo „należy�
 | Pominięty pomiar nie przechodzi po cichu. | Pominięty pomiar zostaje wykazany jako brak. |
 | …nigdy jako cichy sukces. | …nigdy jako wynik pozytywny. (tylko gdy źródło to mówi) |
 
-### 7. Bez „stoi / stanie” w znaczeniu położenia
+### 7. Bez „stoi / stanie / leży” w znaczeniu położenia
 
 | Źle | Dobrze |
 | --- | --- |
 | Element stoi na pulpicie jako niedokończony. | Element widnieje na pulpicie jako niedokończony. |
 | W protokole stanie „nie ustalono”. | W protokole zostanie wpisane „nie ustalono”. |
-| Czas stoi w tablicy normy wyrobu. | Czas podaje tablica normy wyrobu. |
+| Czas stoi w tablicy normy wyrobu. | Czas podano w tablicy normy wyrobu. |
+| Pliki leżą w katalogu aplikacji. | Pliki znajdują się w katalogu aplikacji. |
 
 Znaczenia dosłowne i stałe zostają: „prąd stały”, „w jakim stanie”, „co się stanie”.
 
@@ -85,7 +103,7 @@ Zaimek zostaje, gdy odróżnia: „w kontroli tej, a nie poprzedniej”, „W ty
 
 | Źle | Dobrze |
 | --- | --- |
-| Bez wskazania będzie w nim wpisane „nie wskazano”. | Brak wskazania daje wpis „nie wskazano”. |
+| Bez wskazania będzie w nim wpisane „nie wskazano”. | Brak wskazania powoduje wpis „nie wskazano”. |
 | Pole jest nieobowiązkowe. | Pole nieobowiązkowe. |
 | Wykaz mierników jest pusty. | Wykaz mierników pusty. / Brak mierników w wykazie. |
 
@@ -127,12 +145,24 @@ czasowniku stoi już tylko okolicznik; „Zostają bez zmian poprzednie kontrole
 nie poprawka. Okolicznik zostaje na końcu także wtedy, gdy przestawienie zmienia sens albo
 rozbija frazę stałą.
 
+### 14. Bez zbędnych zaimków osobowych
+
+| Źle | Dobrze |
+| --- | --- |
+| Pole daty jest puste. Uzupełnij je w karcie. | Pole daty puste. Uzupełnij w karcie. |
+| W normie jest ono wymagane przy aparacie z odzysku. | W normie wymagane przy aparacie z odzysku. |
+| Prąd odczytuje się z tablicy, a podano go w niej dla 5 s. | Prąd należy odczytać z tablicy; podano tam wartość dla 5 s. |
+
+Zaimek zostaje, gdy bez niego zdanie jest niegramatyczne albo niejednoznaczne.
+
 ## Lista kontrolna (po każdej edycji, obok `eval.md`)
 
 - Czy każde polecenie ma rozkaźnik i zaczyna się od czasownika?
 - Czy opisy są bez drugiej osoby i bez formy z „się” tam, gdzie „należy” albo bierna
   brzmią naturalnie?
-- Czy żaden dokument, ekran ani plik nie „mówi”, „podaje”, „odnotowuje”, „milczy”?
+- Czy żaden martwy obiekt (dokument, norma, przepis, tablica, ekran, plik) nie „mówi”,
+  „podaje”, „wymaga”, „każe”, „odnotowuje”, „milczy”?
+- Czy każdy zaimek osobowy („go”, „jej”, „je”) jest potrzebny do zrozumienia zdania?
 - Czy w tekście nie ma „nikt”, „po cichu”, „cichy”, „stoi/stanie” w znaczeniu położenia?
 - Czy każdy zaimek wskazujący coś odróżnia?
 - Czy zdania z „być” dało się zamienić — i czy zamiana nie zepsuła sensu?

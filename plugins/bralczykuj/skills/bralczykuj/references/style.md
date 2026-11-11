@@ -1,6 +1,6 @@
 # Style — profile redakcji zależne od przeznaczenia tekstu
 
-Plik ustala, jak styl tekstu zmienia reguły nadrzędne 1–13 z `nadpisania.md`. Wprowadzony
+Plik ustala, jak styl tekstu zmienia reguły nadrzędne 1–14 z `nadpisania.md`. Wprowadzony
 w wersji 1.1.0.
 
 ## Pierwszeństwo
@@ -9,7 +9,7 @@ w wersji 1.1.0.
    wstawki `$…`, nazwy pól w cudzysłowach). Żaden styl jej nie uchyla.
 2. Ustawienia podane w wywołaniu (`limit=40`, `forma=państwo`).
 3. Profil stylu z tego pliku.
-4. Reguły 1–13 z `nadpisania.md`.
+4. Reguły 1–14 z `nadpisania.md`.
 5. Pliki Miodkuja.
 
 ## Wybór stylu
@@ -22,7 +22,7 @@ w wersji 1.1.0.
 Aliasy: `interfejs` = `ui`, `aplikacja`; `instruktarz` = `instrukcja`, `kroki`;
 `urzędowy` = `urzedowy`, `pismo`, `oficjalny`; `dokumentacja` = `techniczny`, `docs`.
 
-Styl `ogólny` odpowiada zachowaniu 1.0.0: reguły 1–13 w pełni, reszta według
+Styl `ogólny` odpowiada zachowaniu 1.0.0: reguły 1–14 w pełni, reszta według
 `registers.md`.
 
 ## Macierz reguł
@@ -46,6 +46,7 @@ wyłączona.
 | 11 bez „raz … dla” | tak | tak | tak | tak |
 | 12 bez redundancji | ostrzej | tak | luźniej | tak |
 | 13 okolicznik po czasowniku | tak | ostrzej | luźniej | tak |
+| 14 bez zbędnych zaimków osobowych | ostrzej | tak | tak | tak |
 
 ## interfejs
 
@@ -112,6 +113,8 @@ Przeznaczenie: pisma, wnioski, protokoły, regulaminy, korespondencja z urzędem
   wprost do adresata, gdy tak jest w źródle.
 - Reguła 3: dopuszczalne „się” i „zobowiązany jest”; moc prawna bez zmian.
 - Reguła 9 wyłączona: „jest”, „są” zostają.
+- Reguła 4 ostrzej: czasowniki relacji („zawiera”, „obejmuje”) w stronie biernej:
+  „Nie jest objęte zakresem kontroli”, „Wykazem objęto wyłącznie zbadane pozycje”.
 - Reguły 2, 8, 10, 12, 13 luźniej: formuły wymagane procedurą zostają
   („Na podstawie art. …”, „W odpowiedzi na pismo z dnia …”, „niniejszym” w formule
   oświadczenia).

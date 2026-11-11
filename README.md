@@ -1,6 +1,6 @@
 # Bralczykuj
 
-Plugin Claude Code do redakcji polskiego tekstu. Rdzeniem jest [Miodkuj](https://github.com/bartekpucek/miodkuj) Bartka Pucka; na wierzchu leży trzynaście reguł nadrzędnych, które wygrywają z Miodkujem przy każdej sprzeczności.
+Plugin Claude Code do redakcji polskiego tekstu. Rdzeniem jest [Miodkuj](https://github.com/bartekpucek/miodkuj) Bartka Pucka; na wierzchu leży czternaście reguł nadrzędnych, które wygrywają z Miodkujem przy każdej sprzeczności.
 
 Reguły powstały przy redakcji tekstów interfejsu, pomocy i dokumentów aplikacji technicznej, stąd przykłady z instalacji elektrycznych. Przy liście, felietonie czy tekście naukowym działają tylko tam, gdzie nie łamią rejestru źródła.
 
@@ -33,16 +33,17 @@ Bez `styl=` styl zostaje rozpoznany z tekstu albo prośby („w stylu urzędowym
 1. Polecenie dla czytelnika w trybie rozkazującym.
 2. W poleceniu wielozdaniowym każde zdanie zaczyna się od czasownika.
 3. Opis: strona bierna albo „należy” przed formą z „się”; bez drugiej osoby.
-4. Dokument, ekran ani plik nie wykonuje czynności człowieka.
+4. Martwy obiekt (dokument, norma, przepis, ekran) nie wykonuje czynności; maszyna może.
 5. Bez „nikt”.
 6. Bez „po cichu”, „cicho”, „cichy sukces”.
-7. Bez „stoi”, „stanie” w znaczeniu położenia.
+7. Bez „stoi”, „stanie”, „leży” w znaczeniu położenia.
 8. Zaimek wskazujący tylko wtedy, gdy coś odróżnia.
 9. Zdanie z „być” zamienione na równoważnik albo inny czasownik, o ile się da.
 10. Zdanie podrzędne skrócone do frazy.
 11. Bez konstrukcji „Zrób raz … dla …”.
 12. Bez redundancji.
 13. Okolicznik zaraz po czasowniku.
+14. Bez zbędnych zaimków osobowych.
 
 Przykłady, wyjątki i lista kontrolna znajdują się w `references/nadpisania.md`.
 
